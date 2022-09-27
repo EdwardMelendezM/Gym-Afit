@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
+}
+/*CONFIGURACION CON JAVASCRIPT*/
+header.abajo{
+    background-color: #fff;
+    padding: 15px 20px;
+}
+header .logo{
+    position: relative;
+    transition: 1.5s;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 15px;
+    text-decoration: none;
+    color:darkslategrey;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7;
+}
+header ul li a:hover{
+    color:chocolate;
+}
+
+
+.zonal{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/img-inicio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.space-white{
+    padding: 200px;
+
+}
+.text-img{
+
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-size-adjust:unset;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.servicios-horarios{
+    background-color: rgb(0, 0, 0);
+}
+.servicios h1{
+    font-size: 40px;
+    color: chocolate;
+    text-align: center;
+    padding: 10px;
+}
+.servicios p{
+    font-size: 17px;
+    text-align: center;
+    color:dimgray;
+}
+.tipo-servicios{
+    width: 500px;
+    margin: 0 auto;
+}
+.tipo-servicios article{
+    padding: 10px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 1.1rem 0;
+}
+.tipo-servicios article:hover{
+    box-shadow: 0 0.2rem 0.9rem rgba(255, 255, 255, 1);
+}
+
+.horarios{
+
+    text-align: center;
+}
+.horarios h1{
+    font-size: 40px;
+    color: chocolate;
+    text-align: center;
+    padding: 10px;
+}
+.horarios h3, .horarios p{
+    color: #fff;
+    padding: 1rem;
+    
+}
+
+footer{
+    background-color:chocolate;
+    padding: 3rem;
+    color: #fff;
+}
+
+footer section{
+    float: right;
+}
+footer p{
+    margin: 0;
+}
+footer a{
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: cornflowerblue;
+}
