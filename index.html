@@ -4,77 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/servicios.css">
     <title>Document</title>
-<style>
-    
-
-</style>
 </head>
 <body>
+    <!-------------------------------- HEADER ------------------------------>
     <header>
-        <div>
-            <a href="" class="logo">
-                <img src="./img/Logo.png" width="100px">
-            </a>
+        <div class="header-top">
+            <a href="#" class="header-logo"><img src="./img/Logo.png" width="80"></a>
+            <button class="header-btn">=</button>
         </div>
-        <nav>
+        
+        
+        <nav class="header-menu">
             <ul>
-                <li> <a href="">Inicio</a></li>
-                <li> <a href="">Horario</a></li>
-                <li> <a href="">Contacto</a></li>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">HORARIO</a></li>
+                <li><a href="#">CRONOMETRO</a></li>
+                <li><a href="#">VIDEOS</a></li>
             </ul>
         </nav>
-        
+
     </header>
-    
-    <section class="zonal">
-        <div class="space-white"></div>
-        <div class="text-img">
-            <h1><span style="color:white">FISICAMENTE </span><span style="color:chocolate">BIEN</span></h1>
-            <h1><span style="color:chocolate">SALUDABLEMENTE </span><span style="color:white">MEJOR</span></h1>
-            <p><span style="color:white">Sesiones intensas</span></p>
+    <section class="zona1">
+        <div class="texto-central">
+            <h1><span class="txt-h" style="color:chocolate">FISICAMENTE </span>
+                <span class="txt-h" style="color:#fff">BIEN</span></h1>
+            <h1><span class="txt-h" style="color:#fff">SALUDABLEMENTE </span></span>
+                <span class="txt-h" style="color:chocolate">MEJOR</span></h1>
         </div>
+    <!--------------------------------------------------------------------->
+
+    <!-------------------------------- SERVICIOS ------------------------------>
     </section>
-
-    <section class="servicios-horarios">
-        <div class="servicios">
-            <h1>SERVICIOS</h1>
-            <p>Disfruta de nuestros servicios dedicadamente a la mejora de tu salud y tu fisico</p>
-
-            <div class="tipo-servicios">
-                <article>
-                    <h3>BAILE</h3>
-                    <img src="./img/baile.jfif" width="500px">
-                    <p>Baile en un espacio comodo y seguro</p>
-                </article>
-                <article>
-                    <h3>ENTRENAMIENTO</h3>
-                    <img src="./img/entrenamiento.jpg" width="500px">
-                    <p>Entrenamiento pesado y liviano</p>
-                </article>
-                
-            </div>
-            
+    <div class="servicios">
+        <h1>SERVICIOS</h1>
+        <div class="servicios-tipo">
+            <section class="baile">
+                <h3>BAILE</h3>
+                <img src="./img/baile.jfif" alt="">
+                <p>Disfruta de bailar tonificando tu cuerpo</p>
+            </section>
+            <section class="entrenamiento">
+                <h3>ENTRENAMIENTO</h3>
+                <img src="/img/entrenamiento.jpg" alt="">
+                <p>Siente como adquieres mucha mas potencia</p>
+            </section>
         </div>
+        <h1>HORARIOS</h1>
         <div class="horarios">
-            <h1>HORARIOS</h1>
-            <h3>LUNES A VIERNES</h3>
+            <h3>Lunes a Viernes</h3>
             <p>Mañana: 6am - 12pm</p>
             <p>Tarde : 4pm - 9pm</p>
-    
-            <h3>SABADOS</h3>
+            <h3>Sabados</h3>
             <p>Mañana: 6am - 12pm</p>
         </div>
-    </section>
 
-    <footer>
-        <section>
-            <a href="#titulo">Ir al comienzo</a>
-            <a href="">Contacto</a>
-        </section>
-        <p>Copyright 2022</p>
+    </div>
+    <!------------------------------------------------------------------------->
+    
+    <!-------------------------------- FOOTER ------------------------------>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="">
+                        <img src="img/Logo.png" alt="Logo de Slee Dw" width="100px">
+                    </a>
+                </figure>
+            </div>
+
+            <div class="box">
+                <h2>UBICACION</h2>
+                <p>San Jeronimo - Cusco - Cusco - PERU</p>
+                <p>Celular: 987654321</p>
+            </div>
+
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href=""><img src="./img/logo_facebook.png" alt=""></a>
+                    <a href=""><img src="./img/logo_whatsaap.png" alt=""></a>
+                    <a href=""><img src="./img/loo_youtube.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>Afit Gym</b> - Todos los derechos reservados.</small>
+        </div>
     </footer>
+
+    <script src="./js/scroll.js"></script>
     <script src="./js/header.js"></script>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 </body>
-</html> 
+</html>

@@ -1,0 +1,65 @@
+.servicios .servicios-tipo {
+    position:relative;
+    display: flex;
+    align-content: center;
+    justify-content:space-around;
+    text-align: center;
+}
+
+
+.servicios .servicios-tipo img{
+    width: 450px;
+    height: 250px;
+}
+
+.servicios h1, .servicios .horarios{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+.servicios h1{
+    margin: 0;
+    padding: 25px;
+    max-width: 100%;
+    background-color: chocolate;
+}
+
+.servicios .servicios-tipo .baile
+{
+    width: 100%;
+    background-color: silver;
+}
+.servicios .servicios-tipo .entrenamiento{
+    width: 100%;
+    background-color: rgb(136, 41, 41);
+}
+
+.servicios .horarios{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #fff;
+}
+.servicios .horarios p{
+    margin: 0;
+    padding: 10px;
+}
+.servicios .horarios h3{
+    margin: 0;
+    padding: 10px;
+}
+
+@media screen and (max-width:850px) {
+    .servicios .servicios-tipo img{
+        width: 300px;
+        height: 200px;
+    }
+    .servicios .servicios-tipo{
+        margin: 0;
+        display: block;
+    }
+    .servicios .servicios-tipo section p, .servicios .servicios-tipo section h3{
+        margin: 0;
+        padding: 20px;
+    }
+}   
