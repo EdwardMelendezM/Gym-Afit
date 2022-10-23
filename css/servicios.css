@@ -24,23 +24,22 @@
     background-color: chocolate;
 }
 
-.servicios .servicios-tipo .baile
+.servicios .servicios-tipo .baile,.servicios .servicios-tipo .entrenamiento
 {
+    font-size: 25px;
     width: 100%;
-    background-color: silver;
-}
-.servicios .servicios-tipo .entrenamiento{
-    width: 100%;
-    background-color: rgb(136, 41, 41);
+    background-color: rgb(66, 64, 64);
 }
 
 .servicios .horarios{
+    font-size: 30px;
     margin: 0;
     padding: 0;
     background-color: black;
     color: #fff;
 }
 .servicios .horarios p{
+    font-size: 25px;
     margin: 0;
     padding: 10px;
 }
