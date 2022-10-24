@@ -47,6 +47,9 @@
     margin: 0;
     padding: 10px;
 }
+.ubicacion{
+    padding: 20px;
+}
 
 @media screen and (max-width:850px) {
     .servicios .servicios-tipo img{

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/servicios.css">
     <title>Document</title>
 </head>
-<body>
+<body id="inicio">
     <!-------------------------------- HEADER ------------------------------>
     <header>
         <div class="header-top">
@@ -20,9 +20,9 @@
         
         <nav class="header-menu">
             <ul>
-                <li><a href="#">INICIO</a></li>
-                <li><a href="#">HORARIO</a></li>
-                <li><a href="#">CRONOMETRO</a></li>
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#horarios">HORARIO</a></li>
+                <li><a href="#cronometro">CRONOMETRO</a></li>
                 <li><a href="#">VIDEOS</a></li>
             </ul>
         </nav>
@@ -53,7 +53,7 @@
                 <p>Siente como adquieres mucha mas potencia</p>
             </section>
         </div>
-        <h1>HORARIOS</h1>
+        <h1 id="horarios"> HORARIOS</h1>
         <div class="horarios">
             <h3>Lunes a Viernes</h3>
             <p>Mañana: 6am - 12pm</p>
@@ -61,6 +61,16 @@
             <h3>Sabados</h3>
             <p>Mañana: 6am - 12pm</p>
         </div>
+
+        <h1>UBICACION</h1>
+        <div class="horarios">
+            <div class="ubicacion">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d933.0796024693394!2d-71.88417588428432!3d-13.544996876418846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916e7eec62d9b5b1%3A0x76225500ac534435!2sPlaza%20Mayor%20de%20San%20Jer%C3%B3nimo%20Cusco!5e0!3m2!1ses-419!2spe!4v1666575321879!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <h1 id="cronometro">CRONOMETRO</h1>
+        <div  class="horarios"  style="padding: 200px;"></div>
 
     </div>
     <!------------------------------------------------------------------------->
@@ -77,7 +87,7 @@
             </div>
 
             <div class="box">
-                <h2>UBICACION</h2>
+                <h2>MAS INFORMACION</h2>
                 <p>San Jeronimo - Cusco - Cusco - PERU</p>
                 <p>Celular: 987654321</p>
             </div>
@@ -96,8 +106,8 @@
         </div>
     </footer>
 
-    <script src="./js/scroll.js"></script>
-    <script src="./js/header.js"></script>
+    
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <script src="./js/indexDom.js" type="module"></script>
 </body>
 </html>
