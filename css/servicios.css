@@ -51,6 +51,50 @@
     padding: 20px;
 }
 
+
+.tiempoCorriendo{
+    height: 500px;
+    padding: 20px;
+    background-image: url("../img/logo-cronometro.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 450px 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.iniciarCronometro, .subir , .bajar{
+    color: white;
+    background-color:chocolate;
+    padding: 10px;
+    width: 100px;
+    border:10px;
+    border-radius: 9px;
+    border-color: brown;
+    
+
+}
+.iniciarCronometro{
+    padding: 20px;
+    width: 150px;
+}
+.iniciarCronometro:hover, .subir:hover,  .bajar:hover{
+    color: white;
+    background-color: brown;
+    cursor:pointer;
+}
+.space-white{
+    padding: 40px;
+}
+.real-time{
+    
+    font-size: 120px;
+    -webkit-text-stroke: 2px rgb(153, 6, 6);
+    color:white; 
+}
 @media screen and (max-width:850px) {
     .servicios .servicios-tipo img{
         width: 300px;
